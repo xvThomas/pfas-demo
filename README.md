@@ -1,5 +1,36 @@
 # PfasDemo
 
+## WebStorm configuration
+
+First make sure you have ESLint and Prettier plugin installed. WebStorm has support out-of-the-box for both.
+
+Check "Run eslint — fix" on Actions On Save settings page.
+
+## VSCode configuration
+
+First make sure you have ESLint and Prettier plugin installed.
+
+Add these lines to your settings.json:
+
+```json
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true
+  }
+}
+```
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
 ## Development server
