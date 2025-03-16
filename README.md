@@ -1,5 +1,7 @@
 # PfasDemo
 
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+
 ## WebStorm configuration
 
 First make sure you have ESLint and Prettier plugin installed. WebStorm has support out-of-the-box for both.
@@ -30,8 +32,6 @@ Add these lines to your settings.json:
   }
 }
 ```
-
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
 ## Development server
 
